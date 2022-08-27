@@ -1,0 +1,124 @@
+*{
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+body{
+    background-color: #34495E;
+    opacity: 0.9;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5px;
+}
+header{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 20px;
+
+}
+#h1home{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.7em;
+  text-shadow: 2px 2px purple;
+  color: darkblue;
+
+}
+ul a{
+color: white;
+text-decoration: none;
+}
+
+li{
+display: inline-block;
+height: 22px;
+width: 100px;
+padding: 12px;
+margin-bottom: 30px;
+margin-left: 5%;
+text-align: center;
+color: white;
+font-size: 1.2em;
+border-left: 2px solid purple;
+border-right: 1px solid purple;
+background-color: blue;
+border-radius: 10px;
+
+}
+li:hover{
+background-color: darkblue;
+border-style: none;
+box-shadow: inset 2px 2px 5px purple;
+}
+img{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 30px;
+ }
+p{
+  margin-left: 20%;
+  margin-right: 20%;
+  position: relative;
+  color: white;
+}
+footer {
+        position: relative;
+        height: 150px;
+        width: 100%;
+        background-color: #34495E;
+        opacity: 0.9;
+        padding: 5px;
+    }
+
+    p.copyright {
+        position: absolute;
+        color: white;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+}
+    form{
+      display: block;
+       margin-left: 20%;
+       margin-right: 20%;
+       padding-top: 50px;
+       color: white;
+
+    }
+    input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px blue;
+    }
+    textarea{
+      height: 100px;
+      padding: 5px 4px;
+    }
+    button:active{
+      background-color: darkblue;
+      color: white;
+      border-radius: 10px;
+      box-shadow: inset 2px 2px 5px purple;
+    }
+    table{
+      margin-left: 20%;
+      margin-right: 20%;
+    border-collapse: collapse;
+    width: 600px;
+    color: white;
+    }
+
+
+    td, th{
+    padding: 15px 5px;
+  }
+    #nha_{
+      color: blue;
+}
